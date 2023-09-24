@@ -81,6 +81,9 @@ xterm -e nala install cowsay && # toilet SNOK_LINUX && wait
 #  xterm -e apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
 ######################################################################################
 echo $GREEN"	### $RED RPK $GREEN ( Rpk install Touls for Ubuntu ) $STAND "
+#sudo wget https://raw.githubusercontent.com/SparoOS/Snok-linux-RPK/main/rpk
+#sudo mv rpk /bin/
+#sudo chmod 777 /bin/rpk
 ######################################################################################
 echo $GREEN"	### $RED Update $GREEN ( Update system for Ubuntu ) $STAND "
 xterm -e nala update && wait
